@@ -1,0 +1,82 @@
+.connectFourBoard{
+  background-color: blue;
+  width: 560px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rectangleInBoard{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circleInBoard{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: cyan;
+  width: 100vw;
+  height: 100vh
+
+}
+h1{
+  display: flex
+}
+.circle{
+  width: 43px;
+  border-radius: 50%;
+  height: 43px;
+  margin-left: 10px;
+  margin-right: 10px
+
+}
+
+.winWindow{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: grey;
+
+}
+.message{
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messageWindow{
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  border-radius: 40px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+
+}
+.theMessage{
+  position: absolute;
+  font-size: 20px;
+  bottom: 50%;
+  margin: 0;
+}
+.replay{
+  position: absolute;
+  top: 62.1%;
+
+}
